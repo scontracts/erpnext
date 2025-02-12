@@ -2124,7 +2124,6 @@ class TestSalesOrder(AccountsTestMixin, FrappeTestCase):
 		self.create_company(company_name="Glass Ceiling", abbr="GC")
 		self.create_item("Lamy Safari 2", True, self.warehouse_stores, self.company)
 		self.create_customer()
-		self.clear_old_entries()
 
 		so = frappe.new_doc("Sales Order")
 		so.company = self.company
