@@ -41,7 +41,7 @@
    "fieldname": "maintenance_type",
    "fieldtype": "Select",
    "label": "Maintenance Type",
-   "options": "Preventive Maintenance\nCalibration"
+   "options": "Preventive Maintenance\nCalibration\nScheduled Service\nRepair\nInspection"
   },
   {
    "fieldname": "column_break_2",
